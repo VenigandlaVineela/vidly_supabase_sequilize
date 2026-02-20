@@ -1,0 +1,7 @@
+ 
+{
+  "jwtPrivateKey": "fallback-dev-key",
+  "db": {
+    "dialect": "postgres"
+  }
+}

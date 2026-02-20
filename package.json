@@ -1,0 +1,38 @@
+{
+  "name": "vidly-supabase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+       
+  "start": "node index.js",
+    "dev": "cross-env NODE_ENV=development node index.js",
+    "test": "cross-env NODE_ENV=test jest --runInBand",
+    "prod": "cross-env NODE_ENV=production node index.js"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "config": "^4.2.0",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "lodash": "^4.17.23",
+    "pg": "^8.18.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.7.10",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "sequelize-cli": "^6.6.5",
+    "supertest": "^7.2.2"
+  }
+}
