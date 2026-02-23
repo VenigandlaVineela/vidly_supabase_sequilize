@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for vidly-supabase-sequilize-prod on 2026-02-23T05:29:24Z
+# fly.toml app configuration file generated for vidly-supabase-sequilize-production on 2026-02-23T06:02:14Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'vidly-supabase-sequilize-prod'
+app = 'vidly-supabase-sequilize-production'
 primary_region = 'bom'
 
 [build]
